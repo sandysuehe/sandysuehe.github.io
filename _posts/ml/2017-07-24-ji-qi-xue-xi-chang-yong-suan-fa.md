@@ -3,6 +3,10 @@ layout: article
 title: "机器学习-常用算法"
 date: 2017-07-24 11:00:11 +0800
 categories: ml
+toc: true
+ads: true
+image:
+    teaser: /teaser/ml_teaser.jpg
 ---
 >简介：本文主要介绍机器学习中常用的十种算法。
 

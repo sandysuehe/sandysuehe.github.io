@@ -2,6 +2,10 @@
 layout: article 
 title: "统计学习方法概论(一) 学习笔记"
 categories: ml
+toc: true
+ads: true
+image:
+    teaser: /teaser/statics_teaser.jpeg
 ---
 > 简介：本文主要介绍了统计学习方法的相关概念。
 

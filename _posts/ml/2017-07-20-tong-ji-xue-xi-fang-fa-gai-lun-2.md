@@ -3,6 +3,10 @@ layout: article
 title: "统计学习方法概论(二) 学习笔记"
 date: 2017-07-20 12:48:20 +0800
 categories: ml
+toc: true
+ads: true
+image:
+    teaser: /teaser/statics_teaser.jpeg
 ---
 >简介：本文主要记录了统计学习方法中模型选择方法，模型预测等概念。
 

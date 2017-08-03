@@ -3,6 +3,10 @@ layout: article
 title: "机器学习-理解ROC和AUC"
 date: 2017-07-12 11:38:25 +0800
 categories: ml
+toc: true
+ads: true
+image:
+    teaser: /teaser/ml_teaser.jpg
 ---
 > 简介：本文主要介绍了机器学习中ROC和AUC的概念。
  

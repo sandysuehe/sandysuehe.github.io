@@ -3,6 +3,10 @@ layout: article
 title: "机器学习-线性回归"
 date: 2017-07-24 14:45:26 +0800
 categories: ml
+toc: true
+ads: true
+image:
+    teaser: /teaser/linear_regress.png
 ---
 > 线性回归概要
 ![线性回归概要](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/linear_regression/线性回归概要.png?raw=true)

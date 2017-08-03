@@ -2,7 +2,11 @@
 layout: article 
 title: "机器学习入门"
 date: 2017-07-10 19:37:07 +0800
-categories: ml 
+categories: ml
+toc: true
+ads: true
+image:
+    teaser: /teaser/ml_teaser.jpg
 ---
 > 简介：本文主要对机器学习进行了入门级的简单介绍。
 
