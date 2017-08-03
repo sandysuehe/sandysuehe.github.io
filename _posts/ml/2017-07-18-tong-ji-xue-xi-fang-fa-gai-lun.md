@@ -6,7 +6,7 @@ categories: ml
 > 简介：本文主要介绍了统计学习方法的相关概念。
 
 > 知识结构图
-![统计学习方法](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/统计学习方法.png?raw=true)
+![统计学习方法](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/statics_learn_1/统计学习方法.png?raw=true)
 
 ### 一、统计学习
 #### 1. 什么是统计学习
@@ -91,7 +91,7 @@ categories: ml
 - 监督学习之所以称为监督学习，是因为训练数据集的过程中，训练数据集往往是人工给出的。
 
 - 监督学习分为两个过程：学习 and 预测。
-![监督学习问题](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/监督学习问题.png?raw=true)
+![监督学习问题](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/statics_learn_1/监督学习问题.png?raw=true)
 
 ### 三、统计学习三要素
 方法=模型+策略+算法
@@ -110,7 +110,7 @@ categories: ml
  监督学习问题，在模型的假设空间中选取最优模型f作为决策函数，对于给定的输入x，由f(x)给出相应的输出y，这个输出的预测值f(x)与真实值y可能存在不一致，需要一个函数来评估预测错误的程度。
  
 - 常用的几种损失函数
-![损失函数的种类](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/损失函数.png?raw=true)
+![损失函数的种类](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/statics_learn_1/损失函数.png?raw=true)
 
 - 什么是风险函数（risk function）？
            
@@ -119,13 +119,13 @@ categories: ml
 (1). 风险函数的定义：理论上模型f(x)关于联合分布P(x,y)的平均意义下的损失，也叫做期望损失（expected loss）。<br/>
 </p>
 
-![风险函数](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/风险函数.png?raw=true)
+![风险函数](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/statics_learn_1/风险函数.png?raw=true)
 
 <p> 由于联合分布P(x,y)是未知的，损失函数的期望Rexp(f)不能直接计算。实际上，如果知道联合分布P(x,y)，可以从联合分布直接求出条件概率分布P(y|x)，也就不需要学习了。<br/><br/>
 
 (2). 经验风险的定义：模型f(x)关于训练样本集的平均损失。<br/></p> 
 
-![经验风险](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/经验风险.png?raw=true)
+![经验风险](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/statics_learn_1/经验风险.png?raw=true)
 
 - 根据大数定律，当样本容量N趋于无穷时，经验风险Remp-f(x)趋近于期望风险Rexp-f(x)。
 - 理论上，我们想用经验风险估计期望风险。
@@ -144,7 +144,7 @@ D. 不适用场景：当样本容量很小时，经验风险最小化的学习�
 
 在假设空间，损失函数，以及训练数据集确定的情况下，经验风险最小化的定义为：
 
-![经验风险最小化](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/经验风险最小化.png?raw=true)
+![经验风险最小化](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/statics_learn_1/经验风险最小化.png?raw=true)
 
 E. 案例：极大似然估计（maximum likelihood estimation）<br/>
 当模型是条件概率分布，损失函数是对数损失函数时，经验风险最小化就等价于极大似然估计。
@@ -158,7 +158,7 @@ B. 定义：结构风险最小化，是在经验风险最小化上加上表示�
 
 在假设空间，损失函数，以及训练数据集确定的情况下，结构风险最小化的定义为：
 
-![结构风险最小化](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/结构风险最小化.png?raw=true)
+![结构风险最小化](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/statics_learn_1/结构风险最小化.png?raw=true)
 
 <p>其中J(f)是模型的复杂度，是定义在假设空间F上的泛函。<br/>
 模型f越复杂，复杂度J(f)就越大；模型f越简单，复杂度J(f)就越小。<br/>

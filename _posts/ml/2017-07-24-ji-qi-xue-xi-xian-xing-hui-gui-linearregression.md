@@ -5,7 +5,7 @@ date: 2017-07-24 14:45:26 +0800
 categories: ml
 ---
 > 线性回归概要
-![线性回归概要](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/线性回归概要.png?raw=true)
+![线性回归概要](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/linear_regression/线性回归概要.png?raw=true)
 
 ## 一、回归问题简介
 ### 1. 回归问题
@@ -15,7 +15,7 @@ categories: ml
 ### 3. 模型
 目标值y是输入变量x的线性组合。
 用数学表达：预测值为
-![线性回归问题](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/线性回归问题.png?raw=true)
+![线性回归问题](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/linear_regression/线性回归问题.png?raw=true)
 
 这个模块中，我们定义
 
@@ -27,7 +27,7 @@ categories: ml
 
 ### 1. 普通最小二乘法
 线性回归(Linear Regression)用系数(w1,w2,...wp)来拟合一个线性模型，使得数据集实际观测数据（实际值）和预测数据（估计值）之间存在的差平方和最小。
-![普通最小二乘法](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/普通最小二乘法.png?raw=true)
+![普通最小二乘法](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/linear_regression/普通最小二乘法.png?raw=true)
 
 线性回归(Linear Regression)模型会调用fit方法来拟合X，y（X为输入，y为输出）。并且把拟合的线性模型的系统w存储到成员变量coef_中。
 
@@ -75,7 +75,7 @@ plt.show()
     w1，w2,...wp [[ 0.9762931]]
     w0 [ 1.96551724]
 
-![最小二乘法曲线](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/最小二乘法曲线.png?raw=true)
+![最小二乘法曲线](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/linear_regression/最小二乘法曲线.png?raw=true)
 
 
 #### 3). 带成本函数的模型拟合评估
@@ -137,14 +137,14 @@ plt.show()
 ```
 
 
-![成本函数](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/成本函数.png?raw=true)
+![成本函数](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/linear_regression/成本函数.png?raw=true)
 
 ####4). 模型评估
 如何评价模型在现实中的表现呢？
 现在让我们假设有另一组数据，作为测试集进行评估。<br/>
 我们使用R方（r-squared）评估模型预测的效果。R方也叫确定系数（coefficient of determination），表示模型对现实数据拟合的程度。
 
-![R方](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/R方.png?raw=true)
+![R方](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/linear_regression/R方.png?raw=true)
 
 scikit-learn样例
 
@@ -166,7 +166,7 @@ clf.score(X_test, y_test)
 #### 1). 多元线性回归模型
     y=α+β1x1+β2x2+⋯+βnxn
     
-![多元线性回归](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/多元线性回归.png?raw=true)
+![多元线性回归](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/linear_regression/多元线性回归.png?raw=true)
 
 
 #### 2). scikit-learn样例
@@ -207,7 +207,7 @@ print('R-squared: %.2f' % clf.score(X_test, y_test))
 
 ```
 
-![多元线性回归例子](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/多元线性回归例子.png?raw=true)
+![多元线性回归例子](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/linear_regression/多元线性回归例子.png?raw=true)
 
     Predicted: [ 10.0625], Target: [11]
     Predicted: [ 10.28125], Target: [8.5]
@@ -226,7 +226,7 @@ print('R-squared: %.2f' % clf.score(X_test, y_test))
 假如解释变量和响应变量的关系不是线性的呢？下面我们来研究一个特别的多元线性回归的情况，可以用来构建非线性关系模型。
 
 #### 1). 多项式回归模型
-![二次回归](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/二次回归.png?raw=true)
+![二次回归](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/linear_regression/二次回归.png?raw=true)
 
 #### 2). scikit-learn样例
 
@@ -296,7 +296,7 @@ print('second liner r-squared', regressor_quadratic.score(X_test_quadratic, y_te
 print('seventh liner r-squared', regressor_seventh.score(X_test_seventh, y_test))
 ```
 
-![多项式回归例子](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/多项式回归例子.png?raw=true)
+![多项式回归例子](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/linear_regression/多项式回归例子.png?raw=true)
 
     ('liner_model r-squared', 0.80972679770766498)
     ('second liner r-squared', 0.86754436563451076)

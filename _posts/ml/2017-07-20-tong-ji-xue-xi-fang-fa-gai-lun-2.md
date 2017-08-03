@@ -14,13 +14,13 @@ categories: ml
 - 模型越复杂，正则化值就越大。
 
 正则化项，可以是模型参数向量的范数：<br/>
-![正则化项](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/正则化项.png?raw=true)
+![正则化项](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/statics_learn_2/正则化项.png?raw=true)
 
 
 #### 2. 模型选择方法：交叉验证（cross validation）
 如果给定的样本数据充足，可以使用交叉验证的模型选择方法。
 
-![样本切分](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/样本切分.png?raw=true)
+![样本切分](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/statics_learn_2/样本切分.png?raw=true)
 
 由于验证集有足够多的数据，使用交叉验证对模型进行选择是有效的。
 
@@ -30,7 +30,7 @@ categories: ml
 - 在此基础上反复地进行训练、测试以及模型选择
 
 ##### 交叉验证的几种方法
-![交叉验证](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/交叉验证.png?raw=true)
+![交叉验证](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/statics_learn_2/交叉验证.png?raw=true)
 
 ### 二、模型的预测能力——泛化能力
 #### 什么是泛化能力？
@@ -46,7 +46,7 @@ categories: ml
 
 泛化误差，是所学习到的模型的期望风险。
 
-![泛化误差](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/泛化误差.png?raw=true)
+![泛化误差](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/statics_learn_2/泛化误差.png?raw=true)
 
 - 泛化误差，反映了学习方法的泛化能力。
 - 如果一种方法学习的模型比另一种方法学习的模型具有更小的泛化误差，那么这种方法更有效。
@@ -60,7 +60,7 @@ TODO
 - 监督学习方法，可以分为两种：1).生成方法，2).判别方法。
 - 监督学习所学到的模型，对应的可分为：1).生成模型，2).判别模型。
 
-![生成方法和判别方法](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/生成方法和判别方法.png?raw=true)
+![生成方法和判别方法](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/statics_learn_2/生成方法和判别方法.png?raw=true)
 
 ### 四、分类问题
 #### 1. 分类问题的定义
@@ -86,7 +86,7 @@ TODO
 -  学习系统由训练数据学习一个分类器P(Y|X)或者Y=f(X)
 -  分类系统通过学到的分类器P(Y|X)或者Y=f(X)对于新的输入实例Xn+1进行分类，即预测其输出的类标记Yn+1
 
-![分类问题](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/分类问题.png?raw=true)
+![分类问题](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/statics_learn_2/分类问题.png?raw=true)
 
 #### 4. 评价分类器的指标
 ##### 1). 准确率（accuracy）
