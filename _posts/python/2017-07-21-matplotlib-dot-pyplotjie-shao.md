@@ -20,7 +20,7 @@ matplotlib.pyplot是命令行式函数的集合，每一个函数都对图像作
 
 
 #### 1. 常用pyplot函数
-![pyplot常用函数](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/pyplot常用函数.png?raw=true)
+![pyplot常用函数](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/python/pyplot/pyplot常用函数.png?raw=true)
 
 #### 2. 使用plot()函数画图
 
@@ -37,7 +37,7 @@ plt.ylabel("y-axis")
 plt.show()
 ```
 
-![pyplot_0](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/pyplot_0.png?raw=true)
+![pyplot_0](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/python/pyplot/pyplot_0.png?raw=true)
 
 
 绘制一个图像：
@@ -61,7 +61,7 @@ plt.axis([0,6,0,20])
 plt.show()
 ```
 
-![pyplot_1](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/pyplot_1.png?raw=true)
+![pyplot_1](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/python/pyplot/pyplot_1.png?raw=true)
 
 
 
@@ -87,7 +87,7 @@ plt.plot(t, t, 'r--',t, t**2, 'bs', t, t**3, 'g^')
 plt.show()
 ```
 
-![pyplot_2](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/pyplot_2.png?raw=true)
+![pyplot_2](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/python/pyplot/pyplot_2.png?raw=true)
 
 
 #### 3. 线的属性
@@ -106,7 +106,7 @@ plt.plot(x, y, linewidth=3.0)
 plt.show()
 ```
 
-![pyplot_3](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/pyplot_3.png?raw=true)
+![pyplot_3](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/python/pyplot/pyplot_3.png?raw=true)
 
 
 
@@ -121,7 +121,7 @@ lines=plt.plot(t, t)
 plt.setp(lines, 'color', 'r', 'linewidth', 2.0)
 plt.show()
 ```
-![pyplot_4](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/pyplot_4.png?raw=true)
+![pyplot_4](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/python/pyplot/pyplot_4.png?raw=true)
 
 
 
@@ -152,9 +152,9 @@ plt.plot(t2, np.cos(2*np.pi*t2), 'r--')
 plt.show()
 ```
 
-![pyplot_5_0](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/pyplot_5_0.png?raw=true)
+![pyplot_5_0](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/python/pyplot/pyplot_5_0.png?raw=true)
 
-![pyplot_5_1](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/pyplot_5_1.png?raw=true)
+![pyplot_5_1](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/python/pyplot/pyplot_5_1.png?raw=true)
 
 
 #### 5. 为图像做文本说明
@@ -180,4 +180,4 @@ plt.grid(True)
 plt.show()
 ```
 
-![pyplot_6](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/pyplot_6.png?raw=true)
+![pyplot_6](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/python/pyplot/pyplot_6.png?raw=true)
