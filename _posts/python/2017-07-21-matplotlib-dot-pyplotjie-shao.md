@@ -3,6 +3,10 @@ layout: article
 title: "Python图表绘制：matplotlib.pyplot入门"
 date: 2017-07-21 17:06:41 +0800
 categories: python
+toc: true
+ads: true
+image:
+    teaser: /teaser/teaser.jpg
 ---
 >简介：本文主要介绍了python的绘图库matplotlib，以及pyplot子库的一些常用函数用法。
 
