@@ -8,11 +8,17 @@ categories: ml
 ![线性回归概要](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/linear_regression/线性回归概要.png?raw=true)
 
 ## 一、回归问题简介
+
 ### 1. 回归问题
+
 预测一个与对象相关的值连续的属性。
+
 ### 2. 应用场景
+
 药品反应，股票价格。
+
 ### 3. 模型
+
 目标值y是输入变量x的线性组合。
 用数学表达：预测值为
 ![线性回归问题](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/linear_regression/线性回归问题.png?raw=true)
@@ -33,6 +39,7 @@ categories: ml
 
 
 ### 2. 一元线性回归
+
 #### 1). 一元线性回归模型
     y=α+βx
    
@@ -140,6 +147,7 @@ plt.show()
 ![成本函数](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/linear_regression/成本函数.png?raw=true)
 
 ####4). 模型评估
+
 如何评价模型在现实中的表现呢？
 现在让我们假设有另一组数据，作为测试集进行评估。<br/>
 我们使用R方（r-squared）评估模型预测的效果。R方也叫确定系数（coefficient of determination），表示模型对现实数据拟合的程度。
