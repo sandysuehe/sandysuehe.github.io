@@ -3,6 +3,10 @@ layout: article
 title: "机器学习-逻辑回归"
 date: 2017-07-25 16:16:02 +0800
 categories: ml
+toc: true
+ads: true
+image:
+    teaser: /teaser/logistic_regress.png
 ---
 >简介：本文主要记录了逻辑回归。
 
