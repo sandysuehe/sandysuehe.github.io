@@ -66,7 +66,7 @@ categories: ml
 - 结果正确存在两种可能：原本对的预测为对（True Positives），原本错的预测为错（False Negatives）；
 - 结果错误也存在两种可能：原本对的预测为错（True Neagtives），原本错的预测为对（False Positives）；
 
-![正负样本分布](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml.jpeg?raw=true)
+![正负样本分布](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/ml_started/ml.jpeg?raw=true)
 
   如Fig 1左侧所示。
   
@@ -111,7 +111,7 @@ categories: ml
     【实际情况】1000个水果（500个苹果，500个梨）目标挑出所有的苹果。
     【模型预测】以y>0.5为阈值，找出共300个水果，认为是评估，其中有250个苹果，另外还错误的把50个梨也当作苹果挑出来了。
 
-![案例说明](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml_sample.png?raw=true)
+![案例说明](https://github.com/sandysuehe/sandysuehe.github.io/blob/master/images/ml/ml_started/ml_sample.png?raw=true)
    
 【分析】
 
