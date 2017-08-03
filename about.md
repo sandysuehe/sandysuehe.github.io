@@ -1,15 +1,22 @@
 ---
-layout: page
+layout: article
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+> Knowing WHAT is not enough, I need to know WHY.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+## Who am I
+
+- I'm a Python lover, fan of machine learning. 
+
+- I previously worked at [Bytedance.com](http://www.toutiao.com) as a senior SDET for more than one years. 
+
+- My github page: [sandysuehe at github](https://github.com/sandysuehe)
+
+
+
+## Other Information about Me
+<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+<script type="IN/MemberProfile" data-id="https://www.linkedin.com/pub/xue-he/44/248/848" data-format="inline" data-related="false"></script>

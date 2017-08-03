@@ -1,6 +1,15 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: archive
+permalink: /
+title: "Latest Posts"
+image: 
+    feature: cover.jpg
+    credit: Hubber's high resolution photo
+    creditlink: http://www.universetoday.com/wp-content/uploads/2010/02/The-Majestic-Sombrero-Galaxy-M104.jpg
 ---
+
+<div class="tiles">
+{% for post in site.posts %}
+	{% include post-grid.html %}
+{% endfor %}
+</div><!-- /.tiles -->

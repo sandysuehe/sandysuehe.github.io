@@ -1,0 +1,22 @@
+# Site navigation links
+
+- title: Home
+  url: /
+  excerpt: 
+  image: 
+
+- title: Machine_Learning 
+  url: /ml/
+
+- title: Linux
+  url: /linux/
+
+- title: Python
+  url: /python/
+
+- title: Jekyll
+  url: /jekyll/
+
+- title: About Me
+  url: /about/
+
