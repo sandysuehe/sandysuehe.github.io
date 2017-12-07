@@ -1,17 +1,27 @@
-# Skinny Bones Jekyll Starter
+[Blog Link]
+https://sandysuehe.github.io/
 
-Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
+[Self introduction]
+I’m a Python lover
 
-I'm currently using a variation of it on my personal website [Made Mistakes](http://mademistakes.com) with some modifications. To learn more about how to use the theme and install it check out the [Skinny Bones demo](http://mmistakes.github.io/skinny-bones-jekyll/) (*work in progress*).
+Experience
 
-![screenshot of Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll/images/skinny-bones-theme-feature.jpg)
+4Paradigm from May 2017 until now.
 
----
+Work at Bytedance as a SDET for 1.5 years
 
-## Notable Features
+Work at Domeb as a SDET for 2 years
 
-* Jekyll 3.x and GitHub Pages compatible.
-* Stylesheet built using Sass.
-* Data files for easier customization of the site navigation/footer and for supporting multiple authors.
-* Optional Disqus comments, table of contents, social sharing links, and Google AdSense ads.
-* And more.
+Skills
+
+3 years experience with Python
+
+Development language: skilled in Python, Golang, Shell, Java, PHP
+
+Have a certain experience in web platform development, skilled use of Django, Yii
+and other web frameworks
+
+Familiar with the use of continuous integration (CI) Jenkins and other tools, familiar with the basic command and use of Docker, and continuous integration &
+deployment experience
+
+Familiar with HBase, MySql, database usage experience;
