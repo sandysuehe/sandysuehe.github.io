@@ -10,7 +10,7 @@ image:
 ---
 >简介：本文主要介绍了二分搜索算法的思想和变形应用
 
-### 二分搜索算法的思想
+## 一、二分搜索算法的思想
 
 二分搜索法（又名二分查找法）主要是解决在【一堆数中找出指定的数】这类问题。
 应用二分搜索法，必须具有以下两个特征：
@@ -23,7 +23,49 @@ image:
 >开始时，范围就是整个数组。通过将范围中间的元素与x比较并丢弃一半范围，范围被缩小。
 >整个过程一直持续，直到在x被发现，或者那个能够包含t的范围已成为空。
 
+## 二、二分搜索算法的模板
 
+### 1. 二分搜索法：模板四要素
+- 要素一： left + 1 < right
+- 要素二： left + (right - left)/2
+- 要素三： nums[mid] ==
+- 要素四： nums[left]/nums[right] ? target
+
+#### 1.1. 为什么不是while(left < right), 而是while(left + 1 < right)?
+
+- 1. 当数组中没有重复元素时：while循环判定条件是(start <= end)，每次start更新为mid + 1，end更新为mid – 1。
+- 2. 当数组中含有重复元素时或者要找的值是target的相邻数时，判定条件是(start + 1 < end)，当num[mid] == target时，并不返回mid，而是根据情况跟新start或者end。每次start更新为mid，end也更新为mid即可。
+
+#### 1.2. 为什么是mid=left + (right - left)/2 ？
+
+二分搜索法，不是确定答案在哪儿，而是减少搜索范围。
+
+中间值下标的计算，如果写成(left+right)/2，left+right可能会溢出，从而导致数组访问出错。所以应该写成left+(left+right)/2。
+
+#### 1.3. nums[mid]分为三种情况
+
+- nums[mid] == target
+- nums[mid] < target
+- nums[mid] > target
+
+#### 1.4. nums[left]和nums[right] ? target的比较大小
+- 先比较nums[left]和target， 还是先比较nums[right]和target
+
+### 2. 二分搜索法：二分位置之OOXX
+
+常见情况，给你一个有序数组，让你找出数组中第一个/最后一个满足某个条件的位置。
+
+Sample： 数组OOOO...OOOXXXX...XXXX中找出第一个X，或者最后一个O
+
+- 倍分法：
+
+对于获取不到数组长度的数组，先以跨度加倍的方式（index位置为1，2， 4，8，...2^x，2^(x+1)）,找到第一个比target大的数，再运用二分搜索法查找target。
+
+- first position <= last number
+
+
+
+## 三、二分搜索法的分类和例子
 ### 第一类：需查找和目标值完全相等的数
 
 #### 1. 标准版二分查找，有序无重复数组。
